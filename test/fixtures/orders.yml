@@ -2,14 +2,14 @@
 
 one:
   quantity: 1
-  paid: False
-  sent: False
+  paid: false
+  sent: false
   customer: one
   product: one
 
 two:
   quantity: 1
-  paid: True
-  sent: False
+  paid: true
+  sent: false
   customer: one
   product: one

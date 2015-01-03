@@ -1,11 +1,9 @@
 Rails.application.routes.draw do
+  root to: "orders#index"
+
   resources :customers
-
   resources :orders
-
   resources :products
-
-  root to: "categories#index"
   resources :categories
 
   # The priority is based upon order of creation: first created -> highest priority.
