@@ -28,6 +28,8 @@ class OrdersController < ApplicationController
   # POST /orders
   # POST /orders.json
   def create
+    @products = Product.all
+    @customers = Customer.all
     @order = Order.new(order_params)
 
     respond_to do |format|
@@ -44,6 +46,8 @@ class OrdersController < ApplicationController
   # PATCH/PUT /orders/1
   # PATCH/PUT /orders/1.json
   def update
+    @products = Product.all
+    @customers = Customer.all
     respond_to do |format|
       if @order.update(order_params)
         format.html { redirect_to @order, notice: 'Order was successfully updated.' }
