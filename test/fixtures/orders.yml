@@ -2,10 +2,10 @@
 
 one:
   quantity: 1
-  boolean: 
-  boolean: 
+  paid: False
+  sent: False
 
 two:
   quantity: 1
-  boolean: 
-  boolean: 
+  paid: True
+  sent: False
