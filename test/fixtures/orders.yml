@@ -4,8 +4,12 @@ one:
   quantity: 1
   paid: False
   sent: False
+  customer: one
+  product: one
 
 two:
   quantity: 1
   paid: True
   sent: False
+  customer: one
+  product: one
